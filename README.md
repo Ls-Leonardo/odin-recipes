@@ -1,1 +1,2 @@
 # odin-recipes
+The goal of this project is to develop a basic website using HTML and hosted on GitHub. The website will have 3 recipes in total. There are no styles in this first one because the focus is to work on my skills with HTML and GIT.
