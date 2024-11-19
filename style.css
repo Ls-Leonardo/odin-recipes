@@ -1,0 +1,33 @@
+*{
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+body{
+    background-color: #f5d8ae ;
+}
+
+
+h1{
+    font-family: Garamond ;
+    font-size: 4em;
+    text-align: center;
+    color: #6E4B3A ;
+    
+}
+
+h2, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p, li{
+    color:  #471e09 ;
+}
+
+a{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+hr{
+    color: #471e09;
+}
