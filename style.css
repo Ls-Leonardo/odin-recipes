@@ -1,9 +1,12 @@
+/* Main Configs */
+
 *{
     font-family: 'Times New Roman', Times, serif ;
 }
 
 body{
-    background-color: #f5d8ae ;
+    background-color: #f7e2c4;
+    
 }
 
 
@@ -11,16 +14,8 @@ h1{
     font-family: Garamond ;
     font-size: 4em;
     text-align: center;
-    color: #6E4B3A ;
+    color: #8b4513  ;
     
-}
-
-h2, h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-p, li{
-    color:  #471e09 ;
 }
 
 a{
@@ -28,6 +23,67 @@ a{
     font-size: 14px;
 }
 
-hr{
-    color: #471e09;
+ul#list-main{
+    list-style-type: none;
+    width: 250px;
+    margin: 0 auto;
+   
+}
+
+ul#list-main li{
+    border: 2px solid #471e09;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #9b6a52;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul#list-main li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul#list-main li a:hover{
+    color: #3b2f2f;
+}
+
+
+
+/* Recipe Configs */
+
+h2, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    color: #9e6143;
+    font-style: italic;
+
+    
+}
+
+p, li{
+    color: #794a1e;
+}
+
+ul.list-ingredients{
+    border: 4px dotted #8b5e3c;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul.list-ingredients li{
+    margin: 12px;
+}
+
+ol.list-steps{
+    border: 4px dotted #8b5e3c;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ol.list-steps li{
+    margin: 12px;
+    text-align: justify;
+    line-height: 1.2em;
 }
